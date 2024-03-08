@@ -1,0 +1,31 @@
+@import "../styles/colors";
+
+.call-graph-header {
+  height: 72px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: inset $bar-gray 3px;
+  top: 0;
+  left: 0;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 500;
+  
+  button {
+    margin: 10px;
+    margin-right: 0px;
+    background-color: $background-gray-medium;
+  }
+}
+
+.call-graph {
+  overflow-y: hidden;
+
+  height: 100%;
+  // margin-top: 20;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

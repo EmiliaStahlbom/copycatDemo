@@ -1,0 +1,6 @@
+node_modules/.bin/acorn
+node_modules*
+*.dat
+tests/__pycache__
+copycat-client/.eslintcache
+*.cpython-38-pytest-7.2.2.pyc

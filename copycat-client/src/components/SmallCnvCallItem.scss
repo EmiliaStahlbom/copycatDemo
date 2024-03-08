@@ -1,0 +1,51 @@
+@import "../styles/colors";
+
+
+.small-cnv-call-item {
+  position: absolute;
+  border-radius: 20px;
+  border: 1px groove;
+  background-color: $background-gray-light;
+
+
+}
+
+
+.chromosome-color {
+  border: 1px groove;
+}
+
+.small-cnv-call-item:hover {
+  border: 1px gold solid;
+  border-radius: 60px;
+
+}
+
+// .selected {
+//   // background-color: $selected-background;
+// }
+
+.selected:hover {
+  background-color: $delete-background-red;
+  border: 3px solid black;
+
+  border-radius: 12px;
+}
+
+.pair-partner-hovered {
+  background-color: $delete-background-red;
+  border: 3px solid black;
+  border-radius: 12px;
+
+}
+
+.minimized:hover {
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+// .visited {
+//   background-color: $background-gray;
+//   border: 0px;
+// }
+

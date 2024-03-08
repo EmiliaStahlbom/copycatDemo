@@ -1,0 +1,48 @@
+@import "../styles/colors";
+
+tr.cnv-call-item {
+  width: 100%;
+  border-radius: 4;
+
+  // text-align: center;
+  // border-color: $selected-background;
+  border-style: solid;
+  border-left: 3px solid;
+  border-top: 0px solid;
+  border-left-color: #8a8a8a00;
+  // border-top-color:  #8a8a8a00;
+  border-bottom: 2px solid $bar-gray;
+  border-right: 0px;
+
+  td {
+    display:table-cell;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    button {
+      // top: 5px;
+      // right: 5px;
+      border-style: ridge;
+      background-color: $background-gray-medium;
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
+
+.selected-list-item {
+  background-color: goldenrod;
+}
+
+.cnv-call-item.hover {
+
+  border-left-color:  goldenrod;//#8a8a8a;
+
+
+}
+
+
+
+

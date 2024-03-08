@@ -1,0 +1,27 @@
+@import "../styles/colors";
+
+circle {
+    fill: $bar-gray
+}
+
+.feature-rect {
+    fill: $bar-snv-gray
+}
+
+.increase {
+    fill: $glyph-blue
+}
+
+.decrease {
+    fill: $glyph-red
+}
+.CoverageGlyphCanvas {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+
+    svg{
+        position:absolute;
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,1 @@
+This folder contains dummy files for demo purpouses. Add a reference genome to this folder for annotation to work samples are not real nor meant to be realistic simulations.

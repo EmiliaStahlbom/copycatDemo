@@ -1,0 +1,15 @@
+@import "../styles/colors";
+
+
+
+.pie-background{
+    fill: $background-gray;
+}
+
+path {
+    color: $bar-snv-gray;
+}
+
+.pie-slice {
+    fill:black;
+}

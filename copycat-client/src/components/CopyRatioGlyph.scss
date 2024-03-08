@@ -1,0 +1,16 @@
+@import "../styles/colors";
+
+.numerator{
+    fill: $navigation-gray
+}
+
+.denominator{
+    fill: $bar-snv-gray
+}
+
+text {
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}

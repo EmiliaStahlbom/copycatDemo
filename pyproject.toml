@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "copycat"
+version = "0.1.0"
+description = "CNV review tool"
+authors = ["Emilia Ståhlbom <emilia.stahlbom@sectra.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.3"
+Flask-Cors = "^3.0.10"
+pandas = "^1.4.1"
+pysam = "^0.19.1"
+pybedtools = "^0.9.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+autopep8 = "^1.6.0"
+pytest-watch = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,141 @@
+@import "./colors";
+.app {
+  // .grid {
+    .app-menu {
+      background-color: $menu-color;
+      height: 100vh;
+      padding: 10px;
+
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+
+      div{
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+        align-items: center;
+      }
+
+
+      button {
+        margin: 10%;
+        background-color: $background-gray;
+        color: $bar-snv-gray;
+        font-weight: bolder;
+        width: 80%;
+        font-size: x-small;
+        size: x-small;
+
+        // display: flexbox;
+        // justify-content: space-around;
+      }
+    }
+
+    .app-main-grid {
+      background-color: $background-gray;
+      div {
+        .app-grid-item-div {
+          background-color: $background-gray;
+        }
+      }
+
+      .call-graph-window {
+        display: flex;
+        height: 100vh;
+        align-items: left;
+        flex-direction: column;
+
+        .MuiCircularProgress-root {
+          color: $glyph-blue;
+          
+          circle {
+            fill: $background-gray;
+          }
+        }
+      }
+    
+      div {
+        .app-right-menu {
+          display: block;
+          position: relative;
+          flex-direction: column;
+          background-color: $background-gray;
+          height: 100vh;
+
+          > .question-selected-list{
+            width: 100%;
+            height: 70%;
+            overflow-y: scroll;
+            border-left: 3px solid $bar-gray ;
+            overflow-x: hidden;
+          }
+
+          > .question-box {
+            width: 100%;
+            height: 30%;
+
+            
+            button {
+              margin: 3px;
+              background-color: $background-gray;
+              color: $bar-snv-gray;
+              font-weight: bolder;
+              width: 80%;
+              font-size: x-small;
+              size: x-small;
+              
+            }
+
+          }
+
+          .case-selected-list{
+            height:100%;
+            width: 100%;
+            overflow-y: scroll;
+            border-left: 3px solid $bar-gray ;
+            overflow-x: hidden;
+          }
+          
+        }
+      }
+
+
+      > div {
+
+        height: 100vh;
+
+        > .app-basic-call-list {
+          width: 100%;
+          height: 70%;
+          overflow-y: scroll;
+          border-left: 3px solid $bar-gray ;
+          overflow-x: hidden;
+          // margin-left: 5px;
+        }
+
+        > .app-question-box-basic  {
+          width: 100%;
+          height: 30%;
+
+          > div {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+
+      .question-box {
+        background-color: $background-gray-light;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-around;
+        border-left:3px solid $bar-gray ;
+        border-top: 3px solid $bar-gray ;
+
+        }
+      }
+  // }
+}
